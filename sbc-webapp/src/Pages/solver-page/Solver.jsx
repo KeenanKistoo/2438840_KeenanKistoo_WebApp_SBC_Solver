@@ -5,7 +5,7 @@ function Solver(){
 
     return(
         <>
-            <h1>Solver Section</h1>
+            <section className="background"></section>
         </>
     )
 }

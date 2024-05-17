@@ -7,8 +7,7 @@ function NavBar(){
 
     return(
         <nav className="nav-bar">
-            <section className="head">
-                <img src={PuzzleImg} alt="puzzle-img" className="nav-icon" />    
+            <section className="head"> 
                 <h1 className="main-head">SBC Assistant</h1>
             </section>
             <section className="links">

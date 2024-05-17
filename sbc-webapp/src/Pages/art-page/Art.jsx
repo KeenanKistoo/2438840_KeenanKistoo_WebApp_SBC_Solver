@@ -5,7 +5,7 @@ function Art(){
 
     return(
         <>
-            <h1>Art Section</h1>
+            <section className="background"></section>
         </>
     )
 }

@@ -5,7 +5,7 @@ function Theory(){
 
     return(
         <>
-            <h1>Theory Section</h1>
+            <section className="background"></section>
         </>
     )
 }

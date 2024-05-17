@@ -5,7 +5,7 @@ function Design(){
 
     return(
         <>
-            <h1>Design Section</h1>
+            <section className="background"></section>
         </>
     )
 }
