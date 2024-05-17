@@ -1,7 +1,7 @@
 nav.nav-bar{
     padding-bottom: 1rem;
     width: 100vw;
-    background-color: rgb(164, 194, 219);
+    background-color: rgb(69, 69, 69);
 }
 .head{
     padding: 1rem;
@@ -15,7 +15,8 @@ img.nav-icon{
 h1.main-head{
     margin-left: 3rem;
     margin-top: -2.7rem;
-    color: rgb(36, 60, 81);
+    /* color: rgb(36, 60, 81); */
+    color: white;
 }
 
 section.links{
@@ -28,7 +29,8 @@ section.links{
 }
 
 .link{
-    color: rgb(36, 60, 81);
+    /* color: rgb(36, 60, 81); */
+    color: white;
     font-size: 1.25rem;
     margin-left: 20px;
     text-decoration: none;
@@ -37,8 +39,12 @@ section.links{
 
 #sbc-nav-btn{
     padding: 0.5rem;
-    background-color: rgb(36, 60, 81);
-    color: white;
+    color: rgb(36, 60, 81);
+    background-color: rgb(79, 188, 240);
     border-radius: 1rem;
     align-items: center;
+}
+
+.change{
+    color: white;
 }

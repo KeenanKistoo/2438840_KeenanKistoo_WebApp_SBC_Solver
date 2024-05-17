@@ -4,7 +4,7 @@ import Art from './Pages/art-page/Art';
 import Design from './Pages/design-page/Design';
 import Solver from './Pages/solver-page/Solver';
 import Theory from './Pages/theory-page/Theory';
-
+import Home from './Pages/homepage/Home';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <BrowserRouter>
         <NavBar/>
         <Routes>
+          <Route path='/' element={<Home/>}/>
           <Route path='/sbc-solver' element={<Solver/>}/>
           <Route path='/design-section' element={<Design/>}/>
           <Route path='/theory-section' element={<Theory/>}/>
