@@ -1,7 +1,6 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 import './NavBar.css';
-import PuzzleImg from '../Images/puzzle.png';
 
 function NavBar(){
 

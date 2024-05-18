@@ -3,6 +3,6 @@
     height: 100vh;
     background-image: url('../../Images/haaland_homepage.jpg');
     background-size: cover;
-    margin-top: -4rem;
-    filter: brightness(5%);
+    margin-top: 0rem;
+    filter: brightness(8%);
 }
