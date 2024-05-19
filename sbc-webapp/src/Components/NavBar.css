@@ -38,6 +38,10 @@ section.links{
     
 }
 
+.link:hover{
+    text-decoration: underline;
+}
+
 #sbc-nav-btn{
     padding: 0.5rem;
     color: rgb(36, 60, 81);

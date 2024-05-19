@@ -1,13 +1,14 @@
 import React from "react";
 import './Homepage.css';
+import InfoHome from "../../Components/info-comp/InfoHome";
 
 function Home(){
 
     return(
         <>
             <section className="homepage">
-                <h1>Homepage</h1>
             </section>
+            <section><InfoHome/></section>
         </>
     )
 }
