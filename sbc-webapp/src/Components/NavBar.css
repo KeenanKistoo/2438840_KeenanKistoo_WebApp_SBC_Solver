@@ -1,48 +1,51 @@
-nav.nav-bar{
-    z-index: 0;
+nav.nav-bar {
+    position: fixed; /* Fix the navbar at the top */
+    top: 0; /* Align it to the top */
+    left: 0; /* Align it to the left */
+    z-index: 1000; /* Ensure it stays on top of other elements */
     padding-bottom: 1rem;
     width: 100vw;
-    background-color: black;
+    background-color: rgb(20, 20, 20);
 }
-.head{
+
+.head {
     padding: 1rem;
     font-size: 1.6rem;
     margin-left: 5rem;
 }
-img.nav-icon{
+
+img.nav-icon {
     width: 2rem;
 }
 
-h1.main-head{
+h1.main-head {
     margin-left: 3rem;
-   margin-top: -0.5rem;
+    margin-top: -0.5rem;
     /* color: rgb(36, 60, 81); */
     color: white;
 }
 
-section.links{
+section.links {
     margin-right: 5rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     margin-top: -5rem;    
-    
 }
 
-.link{
+.link {
     /* color: rgb(36, 60, 81); */
     color: white;
     font-size: 1.25rem;
     margin-left: 20px;
     text-decoration: none;
-    
 }
 
-.link:hover{
+.link:hover {
     text-decoration: underline;
 }
 
-#sbc-nav-btn{
+#sbc-nav-btn {
     padding: 0.5rem;
     color: rgb(36, 60, 81);
     background-color: rgb(79, 188, 240);
@@ -50,6 +53,6 @@ section.links{
     align-items: center;
 }
 
-.change{
+.change {
     color: white;
 }

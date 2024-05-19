@@ -1,0 +1,10 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../Images/haaland_homepage.jpg');
+    background-size: cover;
+    background-position: center -15%; 
+    background-attachment: fixed; 
+    margin-top: 0rem;
+    filter: brightness(8%);
+}

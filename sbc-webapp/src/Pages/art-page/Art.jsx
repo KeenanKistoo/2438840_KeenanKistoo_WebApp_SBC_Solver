@@ -1,5 +1,6 @@
 import React from "react";
 import './Art.css';
+import '../CSS/Background.css'
 
 function Art(){
 

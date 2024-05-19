@@ -6,7 +6,7 @@ function InfoHome(){
     return(
         <>
             <article className='textbox'>
-                <p className='intro-text'>Complete SBCs efficiently without wasting fodder. 
+                <p className='intro-text'>Complete SBCs efficiently without wasting your high rated cards. 
                     Use the Assistant to build teams based on the player 
                     ratings available in your club.
                 </p>

@@ -1,7 +1,7 @@
 article.textbox{
     width: 20rem;
     height: 11rem;
-    background-color: rgba(222, 239, 250, 0.693);
+    background-color: rgb(20, 20, 20);
     margin-left: 10rem;
     margin-top: -25.5rem;
     border-radius: 1rem;
@@ -12,23 +12,23 @@ p.intro-text{
     align-items: center;
     text-align: center;
     font-weight: bold;
-    color: rgb(0, 51, 102);
+    color: white
 
 }
 .link-home {
-    color: rgb(13, 82, 113);
+    color: white;
     font-size: 1.6rem;
     text-align: center;
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    margin-top: -1.2rem;
+    margin-top: -1.8rem;
     transition: font-size 0.1s ease, color 0.1s ease, font-weight 0.1s ease;
 }
 
 
 .link-home:hover{
     font-size: 1.8rem;
-    color: rgb(0, 51, 102);
+    color: rgb(160, 216, 216);
     font-weight: bold;
 }
