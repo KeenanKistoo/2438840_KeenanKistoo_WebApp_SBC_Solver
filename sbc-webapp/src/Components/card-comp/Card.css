@@ -1,0 +1,31 @@
+.card-input {
+    position: relative;
+    height: 12rem;
+    width: 90vw;
+    margin-left: 1rem;
+    margin-top: 15rem;
+    z-index: 15;
+    background-color: rgb(20, 20, 20);
+    display: grid; 
+    grid-template-columns: repeat(11, 1fr); 
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.card {
+    z-index: 15;
+    width: 10rem;
+    grid-column: 1; /* Place the card in the middle column. Will use this to distribute later */
+}
+
+.input {
+    background-color: white;
+    z-index: 15;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 2rem;
+    grid-column: 1; /* Place the input in the middle column */
+    margin-top: -12rem;
+    margin-left: 0.2rem;
+    text-align: center;
+}

@@ -3,8 +3,12 @@
     height: 100vh;
     background-image: url('../../Images/haaland_homepage.jpg');
     background-size: cover;
-    background-position: center -15%; 
-    background-attachment: fixed; 
-    margin-top: 0rem;
+    background-position: center -15%; /* Adjust the vertical position */
+    background-attachment: fixed; /* Keeps the background image fixed */
+    margin: 0; /* Remove any margin */
     filter: brightness(8%);
+    z-index: -1; /* Ensure the background is behind other elements */
+    position: fixed; /* Ensure the background is positioned fixed */
+    top: 0; /* Align to the top of the viewport */
+    left: 0; /* Align to the left of the viewport */
 }
