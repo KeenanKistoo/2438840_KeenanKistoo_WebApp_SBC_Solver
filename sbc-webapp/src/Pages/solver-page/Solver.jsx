@@ -9,7 +9,9 @@ function Solver(){
     return(
         <>
             <section className="background"></section>
-            <Card/>
+            <Card 
+            value={1}
+            />
         </>
     )
 }
